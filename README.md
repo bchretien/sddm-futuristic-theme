@@ -6,8 +6,12 @@ SDDM is a Login Manager for Linux which can be themed by qml.
 
 Installation
 ------------
-* Copy the folder `futuristic` to /usr/share/apps/sddm/themes/
-* Change CurrentTheme to `futuristic` in /etc/sddm.conf
+* Copy the folder `futuristic` to `/usr/share/sddm/themes/`
+* In `/etc/sddm.conf`, add this:
+```
+[Theme]
+Current=futuristic
+```
 * Enjoy.
 
 Thanks
